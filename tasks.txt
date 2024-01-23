@@ -1,0 +1,13 @@
+Main Marks
+-banner slider
+-professional hockeys club
+-program section
+-our new products
+-get in touch
+-footer
+
+Bonus Marks
+-no dummy texts
+-navbar
+-banner badge
+-clients question
