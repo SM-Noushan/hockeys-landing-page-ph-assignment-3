@@ -1,7 +1,7 @@
 Main Marks
 -banner slider /ok
 -professional hockeys club /ok
--program section
+-program section /ok
 -our new products
 -get in touch
 -footer
