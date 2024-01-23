@@ -10,4 +10,4 @@ Bonus Marks
 -no dummy texts
 -navbar /ok
 -banner badge /ok
--clients question
+-clients question /ok
