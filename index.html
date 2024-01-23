@@ -19,7 +19,7 @@
             theme: {
                 extend: {
                     colors: {
-                        'color': '#131318',
+                        'color1': '#131318',
                         'color1-600': '#13131899',
                         'color2': '#FF4240',
                         'color3': '#424247',
@@ -33,9 +33,133 @@
     </script>
 </head>
 
-<body>
-    <header>
+<body class="font-manrope">
+    <header class="container mx-auto md:px-8 lg:px-24 my-8 space-y-12">
+        <!-- navbar section -->
+        <nav>
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
 
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40">
+                            <li><a class="text-color2">Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="text-color1 text-2xl lg:text-4xl leading-normal font-extrabold">Hockey<span
+                            class="text-color2">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden md:flex">
+                    <ul class="menu menu-horizontal px-1 text-color3 text-base leading-normal lg:space-x-4">
+                        <li><a class="text-color2">Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <img src="Hockeys-main-resources/Images/search.png" alt="searchIcon">
+                    <a
+                        class="ml-1 lg:ml-4 btn lg:btn-lg lg:px-6 lg:py-4 bg-color2 hover:bg-red-600 text-white text-base lg:text-xl leading-normal font-bold">Get
+                        Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner-carousel section -->
+        <div class="p-2 space-y-4">
+            <div class="carousel w-full rounded-2xl">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Hockeys-main-resources/Images/1.png" class="w-full" />
+                    <div
+                        class="absolute flex justify-center md:justify-start gap-4 left-5 right-5 bottom-3 md:left-10 md:bottom-10">
+                        <a href="#slide4"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/leftArrow.png" alt="arrows"></a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/rightArrow.png" alt="arrows"></a>
+                    </div>
+                    <div
+                        class="hidden md:block absolute p-8 bg-color1 opacity-80 lg:opacity-100 text-white w-[48%] rounded-2xl right-10 bottom-10 space-y-4">
+                        <h3 class="text-2xl leading-normal font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-base font-medium opacity-60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                    <div
+                        class="absolute flex justify-center md:justify-start gap-4 left-5 right-5 bottom-3 md:left-10 md:bottom-10">
+                        <a href="#slide1"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/leftArrow.png" alt="arrows"></a>
+                        <a href="#slide3"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/rightArrow.png" alt="arrows"></a>
+                    </div>
+                    <div
+                        class="hidden md:block absolute p-8 bg-color1 text-white w-[48%] rounded-2xl right-10 bottom-10 space-y-4">
+                        <h3 class="text-2xl leading-normal font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-base font-medium opacity-60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                    <div
+                        class="absolute flex justify-center md:justify-start gap-4 left-5 right-5 bottom-3 md:left-10 md:bottom-10">
+                        <a href="#slide2"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/leftArrow.png" alt="arrows"></a>
+                        <a href="#slide4"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/rightArrow.png" alt="arrows"></a>
+                    </div>
+                    <div
+                        class="hidden md:block absolute p-8 bg-color1 text-white w-[48%] rounded-2xl right-10 bottom-10 space-y-4">
+                        <h3 class="text-2xl leading-normal font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-base font-medium opacity-60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                    <div
+                        class="absolute flex justify-center md:justify-start gap-4 left-5 right-5 bottom-3 md:left-10 md:bottom-10">
+                        <a href="#slide3"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/leftArrow.png" alt="arrows"></a>
+                        <a href="#slide1"
+                            class="btn btn-circle bg-color1 border-color1 hover:bg-color1-600 text-white"><img
+                                src="Hockeys-main-resources/Images/rightArrow.png" alt="arrows"></a>
+                    </div>
+                    <div
+                        class="hidden md:block absolute p-8 bg-color1 text-white w-[48%] rounded-2xl right-10 bottom-10 space-y-4">
+                        <h3 class="text-2xl leading-normal font-extrabold">Meet all the heroes from the field</h3>
+                        <p class="text-base font-medium opacity-60">Dit amet consectetur. Condimentum dignissim
+                            adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="md:hidden p-4 bg-color1 text-white w-full rounded-xl space-y-2">
+                <h3 class="text-lg leading-normal font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-sm font-medium opacity-60">Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
     </header>
     <main>
 
