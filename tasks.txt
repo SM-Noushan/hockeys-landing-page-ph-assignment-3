@@ -1,6 +1,6 @@
 Main Marks
--banner slider
--professional hockeys club
+-banner slider /ok
+-professional hockeys club /ok
 -program section
 -our new products
 -get in touch
@@ -8,6 +8,6 @@ Main Marks
 
 Bonus Marks
 -no dummy texts
--navbar
--banner badge
+-navbar /ok
+-banner badge /ok
 -clients question
