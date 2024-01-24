@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- customize tailwind -->
     <script>
         tailwind.config = {
@@ -593,6 +597,100 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- get in touch section -->
+        <section class="my-10 md:my-24 space-y-12">
+            <div class="text-center py-6 md:py-8 space-y-6 border-y border-color1/20 border-dashed">
+                <h1 class="text-xl md:text-4xl leading-normal font-extrabold text-color1">Get In Touch</h1>
+                <p class="text-sm md:text-base text-color1-600 font-semibold leading-6 w-5/6 md:w-[48%] mx-auto">Dit
+                    amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit
+                    nullam proin. </p>
+            </div>
+            <!-- contact & form container-->
+            <div class="grid grid-cols-1 lg:grid-cols-12 xl:grid-cols-3 gap-6">
+                <!-- contact info -->
+                <div
+                    class="lg:col-span-5 xl:col-span-1 p-6 sm:p-12 grid grid-cols-1 gap-6 border border-color1/10 rounded-2xl">
+                    <div class="bg-[#bced6d1a] rounded-2xl min-h-52 p-4 sm:p-8">
+                        <img src="Hockeys-main-resources/Images/Group 1171275317.png" alt="contactIcons">
+                        <p class="mt-6 text-color1/40 leading-8">Phone Number:</p>
+                        <p class="text-color1 text-lg leading-8 font-extrabold">(+62) 123-321-543</p>
+                    </div>
+                    <div class="bg-[#FDDD5F1A] rounded-2xl min-h-52 p-4 sm:p-8">
+                        <img src="Hockeys-main-resources/Images/Group 1171275318.png" alt="contactIcons">
+                        <p class="mt-6 text-color1/40 leading-8">Email:</p>
+                        <p class="text-color1 text-lg leading-8 font-extrabold">hockeys@support.com</p>
+                    </div>
+                    <div class="bg-[#629CF31A] rounded-2xl min-h-52 p-4 sm:p-8">
+                        <img src="Hockeys-main-resources/Images/Group 1171275321.png" alt="contactIcons">
+                        <p class="mt-6 text-color1/40 leading-8">Location:</p>
+                        <p class="text-color1 text-lg leading-8 font-extrabold">152/1 Mohakhali Wireless Gate</p>
+                    </div>
+                </div>
+                <!-- contact form -->
+                <div class="lg:col-span-7 xl:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 p-2 sm:p-8 md:p-0">
+                    <!-- name -->
+                    <label class="form-control w-full">
+                        <div class="label py-0">
+                            <span class="label-text text-color1 text-xl leading-normal font-bold">Your Name</span>
+                        </div>
+                        <input type="text" placeholder="Enter your full name"
+                            class="input w-full p-5 rounded-xl focus:outline-none focus:border-white" />
+                    </label>
+                    <!-- email -->
+                    <label class="form-control w-full">
+                        <div class="label py-0">
+                            <span class="label-text text-color1 text-xl leading-normal font-bold">Your Email</span>
+                        </div>
+                        <input type="email" placeholder="Enter your email"
+                            class="input w-full p-5 rounded-xl focus:outline-none focus:border-white" />
+                    </label>
+                    <!-- subject -->
+                    <label class=" form-control w-full">
+                        <div class="label py-0">
+                            <span class="label-text text-color1 text-xl leading-normal font-bold">Subject</span>
+                        </div>
+                        <input type="text" placeholder="Enter your subject"
+                            class="input w-full p-5 rounded-xl focus:outline-none focus:border-white" />
+                    </label>
+                    <!-- Phone Number -->
+                    <label class="form-control w-full">
+                        <div class="label py-0">
+                            <span class="label-text text-color1 text-xl leading-normal font-bold">Phone Number</span>
+                        </div>
+                        <input type="tel" placeholder="Enter your phone number"
+                            class="input w-full p-5 rounded-xl focus:outline-none focus:border-white" />
+                    </label>
+                    <!-- Message -->
+                    <label class="form-control w-full md:col-span-2 row-span-9">
+                        <div class="label py-0">
+                            <span class="label-text text-color1 text-xl leading-normal font-bold">Message</span>
+                        </div>
+                        <textarea
+                            class="textarea textarea-lg w-full p-5 rounded-xl focus:outline-none focus:border-white h-full"
+                            placeholder="Write your message"></textarea>
+                    </label>
+                    <div class="md:col-span-2 flex items-end">
+                        <button
+                            class="w-full btn btn-lg bg-color2 hover:bg-red-600 text-white text-xl leading-none font-bold py-4 rounded-xl">Send
+                            Message</button>
+                    </div>
+                </div>
+            </div>
+            <!-- social links -->
+            <div class="rounded-xl bg-[#13131808] text-center space-y-4 py-9">
+                <h3 class="text-color1 text-2xl font-extrabold leading-normal">Social Media</h3>
+                <div class="flex justify-center gap-8">
+                    <a class="link" href="http://www.x.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-twitter text-2xl"></i></a>
+                    <a class="link" href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-facebook-f text-2xl"></i></a>
+                    <a class="link" href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i
+                            class="fa-brands fa-instagram text-2xl"></i></a>
+                    <a class="link" href="https://github.com/SM-Noushan/hockeys-landing-page-ph-assignment-3"
+                        target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github text-2xl"></i></a>
                 </div>
             </div>
         </section>

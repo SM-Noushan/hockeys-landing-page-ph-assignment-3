@@ -3,7 +3,7 @@ Main Marks
 -professional hockeys club /ok
 -program section /ok
 -our new products /ok
--get in touch
+-get in touch /ok
 -footer
 
 Bonus Marks
