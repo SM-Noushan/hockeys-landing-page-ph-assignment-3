@@ -7,7 +7,7 @@ Main Marks
 -footer /ok
 
 Bonus Marks
--no dummy texts
+-no dummy texts /ok
 -navbar /ok
 -banner badge /ok
 -clients question /ok
