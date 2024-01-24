@@ -4,7 +4,7 @@ Main Marks
 -program section /ok
 -our new products /ok
 -get in touch /ok
--footer
+-footer /ok
 
 Bonus Marks
 -no dummy texts
